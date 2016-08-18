@@ -1,7 +1,7 @@
 language: elixir
 script:
+  - mix credo --strict
   - mix test
-  - mix credo
 matrix:
   include:
     - otp_release: 18.3
